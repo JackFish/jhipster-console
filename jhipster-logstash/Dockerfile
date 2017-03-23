@@ -1,4 +1,4 @@
-FROM logstash:5.1.2-alpine
+FROM logstash:5.2.2-alpine
 
 ADD conf/logstash.conf /conf/
 VOLUME ["/conf"]
